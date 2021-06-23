@@ -1,0 +1,11 @@
+.List {
+	position: relative;
+	width: 75%;
+	height: 83%;
+	padding: 20px 0;
+}
+
+.List-todos {
+	overflow: auto;
+	height: 85%;
+}

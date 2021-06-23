@@ -1,0 +1,43 @@
+.Todo {
+	display: flex;
+	border-radius: 5px;
+	box-shadow: 0px 3px 5px #222;
+	margin: 9px 0;
+	background-color: #fff;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+}
+
+.Todo-delete {
+	position: absolute;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5%;
+	height: 100%;
+	background-color: #ff0000;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: #fff;
+}
+
+.Todo-delete:hover {
+	background-color: #ff3333;
+}
+
+.Todo-complete {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.Todo-text {
+	margin: 0px;
+	padding: 0 20px;
+	width: auto;
+}

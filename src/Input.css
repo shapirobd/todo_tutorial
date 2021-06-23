@@ -1,0 +1,16 @@
+.Input {
+	bottom: 5%;
+	position: absolute;
+	width: 100%;
+}
+
+.Input-text {
+	box-sizing: border-box;
+	bottom: 5%;
+	height: 50px;
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	padding: 0 10px;
+	font-size: 18px;
+}
